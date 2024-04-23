@@ -1,0 +1,9 @@
+<div *ngFor="let seminar of seminars" class="seminar-container">
+  <h2>Titre: {{ seminar.title }}</h2>
+  <p>Présentateur: {{ seminar.presenter }}</p>
+  <p>Date: {{ seminar.date }}</p>
+  <p>Description: {{ seminar.description }}</p>
+  <button *ngIf="isLoggedIn()" (click)="openEditDialog(seminar)" id="edit_button">Edit</button>
+  <br>
+  <br><button *ngIf="isLoggedIn()" (click)="deleteSeminar(seminar.id)" id="delete_button">Delete</button>
+</div>

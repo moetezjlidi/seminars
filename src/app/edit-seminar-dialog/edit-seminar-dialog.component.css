@@ -1,0 +1,30 @@
+/* edit-seminar-dialog.component.css */
+:host {
+  display: block;
+  padding: 20px;
+}
+
+mat-form-field {
+  width: 100%; /* Full width within the dialog */
+  margin-bottom: 15px; /* Space between form fields */
+}
+
+textarea {
+  min-height: 150px; /* Ensures that the textarea for description is sufficiently tall */
+}
+
+button {
+  margin-right: 8px; /* Space between buttons */
+}
+
+/* Specific styling for the cancel button to be less prominent */
+.cancel-button {
+  background-color: transparent;
+  color: #666;
+}
+
+/* Highlight the save button to draw more attention */
+.save-button {
+  background-color: #0056b3;
+  color: white;
+}

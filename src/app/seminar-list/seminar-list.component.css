@@ -55,7 +55,29 @@ p a {
 p a:hover {
     text-decoration: underline;
 }
-#disconnect {
+
+.mat-dialog-container {
+  max-width: none;
+  width: 50vw; /* Control width here */
+  height: 50vw; /* Making the modal square */
+  max-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Adjust the internal form styling if needed */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.mat-form-field {
+  width: 100%; /* Ensures form controls use the full width */
+}
+
+#delete_button {
     background-color: #f44336; /* Red color for the disconnect button */
     color: white; /* White text */
     padding: 10px 20px; /* Padding around the text */
@@ -64,14 +86,19 @@ p a:hover {
     cursor: pointer; /* Pointer cursor on hover */
     transition: background-color 0.3s ease; /* Smooth transition for hover effect */
   }
-  
-  #disconnect:hover {
+  #delete_button:hover {
     background-color: #5f2a28; /* Darker shade of red on hover */
   }
-  
-  /* Style for the span next to the disconnect button */
-  #disconnect + span {
-    margin-left: 10px; /* Space between the button and the text */
-    font-size: 16px; /* Font size of the text */
-    vertical-align: middle; /* Align the text vertically in line with the button */
+
+  #edit_button {
+    background-color: #237e49; /* Red color for the disconnect button */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding around the text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  #edit_button:hover {
+    background-color: #154d2c; /* Darker shade of red on hover */
   }

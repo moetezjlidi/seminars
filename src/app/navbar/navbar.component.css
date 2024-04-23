@@ -1,0 +1,38 @@
+/* Overall navbar styles */
+.navbar {
+  background-color: #f8f9fa; /* Light gray background, can adjust color as needed */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for a bit of depth */
+}
+
+/* Navbar brand/logo style */
+.navbar-brand {
+  color: #007bff; /* Bootstrap primary color */
+  font-weight: bold;
+}
+
+/* Styles for navbar links */
+.nav-link {
+  color: #007bff; /* Bootstrap primary blue for consistency */
+  transition: color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #3e4e45; /* Darker blue when hovering/focusing */
+  text-decoration: none; /* Remove underline from links */
+}
+
+/* Active link styles */
+
+
+/* Style modifications for when the navbar is collapsed on smaller screens */
+@media (max-width: 992px) {
+  .navbar-toggler {
+    border-color: rgba(0,0,0,0.1); /* Light border for the toggle button */
+  }
+
+  .navbar-collapse {
+    border-top: 1px solid rgba(0,0,0,0.1); /* Border top to separate collapsed content */
+    background-color: white; /* White background for collapsed items */
+  }
+}

@@ -1,0 +1,268 @@
+[
+  {
+    "title": "test",
+    "presenter": "tesst",
+    "date": "test",
+    "description": "testt",
+    "id": 38
+  },
+  {
+    "title": "Probabilistic reasoning about incomplete and contradictory information",
+    "presenter": " Sabine Frittella (LIFO, INSA Centre Val de Loire)",
+    "date": "Le 23/04/2024 à 14h à St Charles, FRUMAM, 2ème étage",
+    "description": "Belnap-Dunn logic (BD) was designed to reason about incomplete and contradictory information. It is a paracomplete and paraconsistent propositional logic, that is, BD is a propositional logic that satisfies the same axioms as classical propositional logic except for the principle of explosion and the law of excluded middle. In this talk, we will discuss probabilistic reasoning over BD. In the first part of the talk, we provide preliminaries on BD and probabilities over BD, and we present two-layered logics and how to use them to formalize probabilistic reasoning. In the second part, we introduce belief functions (a generalization of probability measures) and discuss how to define and interpret them over BD.",
+    "id": 1
+  },
+  {
+    "title": "Raisonnement sur les modèles de jeux dynamiques à l'aide de logiques d'obstruction",
+    "presenter": "Davide Catta (Università degli studi di Napoli, Federico II, DIETI)",
+    "date": "A venir",
+    "description": " Les logiques d'obstruction sont des logiques temporelles que nous avons récemment introduites. Elles permettent de raisonner sur les propriétés temporelles des jeux dans lesquels un joueur peut modifier la structure topologique d'un graphe orienté en désactivant ses arcs. Dans ce séminaire, nous introduirons les propriétés formelles de ces logiques, en nous concentrant sur le problème du model-checking. Nous montrerons également comment ces logiques permettent d'exprimer des propriétés de cyber-sécurité sur des graphes d'attaque.",
+    "id": 2
+  },
+  {
+    "title": " (Paraconsistent) Expansions of Gödel modal logics",
+    "presenter": "Daniil Kozhemiachenko (LABRI, Université de Bordeaux)",
+    "date": "A venir - A distance",
+    "description": " Gödel modal logics on [0,1]-valued frames with possibly fuzzy accessibility relation (i.e., the value of the relation can also be between 0 and 1) were first proposed by Caicedo and Rodriguez in 2010. Since then, they have been further developed by Metcalfe, Olivetti, and Rogger (proof theory and complexity), Vidal (logics on crisp frames), and Godo, Esteva, Rodriguez, and Tuyt (applications to possibility measures). In this talk, we consider KbiG — the expansion of Gödel modal logic with an additional connective — Baaz' Delta or coimplication. We also present KG^2 — the expansion of KbiG with a paraconsistent De Morgan negation. We show how to use these logics to formalise comparative belief statements (e.g., ‘I think that rain is more likely than hailstorm’) and construct Hilbert-style axiomatisations of KbiG and KG^2 and discuss their completeness proofs. We observe that crisp KG^2 expands crisp KbiG but there is no expansion in the fuzzy case. We also cover some results on frame definability and correspondence theory: transfer of crisp frame definability from K (minimal classical normal modal logic) to KbiG, characterisation of finitely branching frames via Glivenko theorem, and the characterisation of formulas transferrable from fuzzy KbiG to fuzzy KG^2 via embedding of the latter into the former. The talk is based on the following papers with Marta Bilkova and Sabine Frittella. Crisp bi-Gödel modal logic and its paraconsistent expansion (IGPL, jzad017); Fuzzy bi-Gödel modal logic and its paraconsistent relatives (JLC, exae011).",
+    "id": 3
+  },
+  {
+    "title": "Scalable Enumeration of Trap Spaces in Boolean Networks via Answer Set Programming",
+    "presenter": "Van-Giang Trinh (LIS, UMR 7020, LIRICA)",
+    "date": "Le 25/03/2024 à 14h à St Charles, FRUMAM, 3ème étage (et à distance)",
+    "description": " Boolean Networks (BNs) are widely used as a modeling formalism in several domains, notably systems biology and computer science. A fundamental problem in BN analysis is the enumeration of trap spaces, which are hypercubes in the state space that cannot be escaped once entered. Several methods have been proposed for enumerating trap spaces, however they often suffer from scalability and efficiency issues, particularly for large and complex models. To our knowledge, the most efficient and recent methods for the trap space enumeration all rely on Answer Set Programming (ASP), which has been widely applied to the analysis of BNs. Motivated by these considerations, our work proposes a new method for enumerating trap spaces in BNs using ASP. We evaluate the method on a mix of 250+ real-world and 400+ randomly generated BNs, showing that it enables analysis of models beyond the capabilities of existing tools (namely pyboolnet, mpbn, trappist, and trapmvn). Reference: Van-Giang Trinh, Belaid Benhamou, Samuel Pastva, & Sylvain Soliman. (2024, February). Scalable enumeration of trap spaces in Boolean networks via answer set programming. In Annual AAAI Conference on Artificial Intelligence. (to appear, oral presentation)",
+    "id": 4
+  },
+  {
+    "title": "Les systèmes de fermeture et leurs représentations",
+    "presenter": "Simon Vilmin (LIS, UMR 7020, LIRICA)",
+    "date": " Le 18/03/2024 à 14h à St Charles, FRUMAM, 2ème étage",
+    "description": " Un système de fermeture sur un univers (fini) X est une famille de sous-ensembles de X, dits fermés, close par intersection et contenant X. Ces systèmes apparaissent dans de nombreux champs de l'informatique et des mathématiques par le biais de représentations implicites. Parmi les représentations possibles, deux sont communes : - les bases d'implications, soit des ensembles de règles A --> b signifiant un ensemble contenant l'ensemble A doit contenir l'élément b ; - l'ensemble des fermés (inf-)irréductibles, ces derniers étant les fermés à partir duquel reconstruire tout le système. Dans cet exposé, je ferai une introduction générale aux systèmes de fermeture et leurs représentations. Je mentionnerai entre autres quelques-uns des résultats importants en la matière, et je parlerai du problème de passage d’une représentation à l’autre dont la complexité est toujours inconnue à ce jour malgré plus de 30 ans de recherche.",
+    "id": 5
+  },
+  {
+    "title": "Comment l’hypercarte peut-elle nous guider à travers la démonstration assistée par ordinateur du théorème des quatre couleurs ?",
+    "presenter": "Faustine Oliva (Centre Gilles Gaston Granger / Laboratoire d'Informatique de Grenoble)",
+    "date": "- Le 26/02/2024 à 14h à St Charles, FRUMAM, 2ème étage",
+    "description": "  Afin de soumettre la démonstration du théorème des quatre couleurs à l’évaluation de l’assistant de preuve Coq l’énoncé du théorème a dû être reformulé. En effet les deux premières démonstrations (Appel&Haken 1977, 1977, Robertson et al. 1997) s’appuient sur la notion de graphe et recourent à des arguments topologiques qu’on peut difficilement formaliser et utiliser dans le système Coq. C’est pour cette raison que la formalisation de la démonstration dans l’environnement de l’assistant de preuve fait reposer la démonstration du théorème, qui porte originellement sur les cartes planaires, sur la démonstration de sa version combinatoire qui concerne les hypercartes. Le but de cet exposé est de mettre en évidence la manière dont les contraintes exercées par le système Coq -- dont l’une des principales conséquences est de devoir recourir à la notion d’hypercarte -- peuvent avoir un impact sur les propriétés épistémiques et mathématiques de la démonstration obtenue. En d’autres termes il s’agira de déterminer si, en plus de permettre la vérification de la démonstration du théorème des quatre couleurs par un assistant de preuve, cette formalisation nous apprend quelque chose sur la démonstration du théorème et sur le théorème lui-même. À partir d’une analyse de la notion d’expertisabilité telle qu’elle est développée par Tymoczko dans (Tymoczko 1979) nous commencerons par montrer que ce projet de formalisation peut être envisagé comme une quête d’expertisabilité particulière que nous qualifierons d’orientée-ordinateur. Nous introduirons ensuite la notion d’hypercarte, présenterons les avantages qu’elle offre et insisterons sur la manière dont elle est étroitement liée aux différents usages qui peuvent être faits de la modularité. Enfin nous interrogerons la prétention de cette démonstration formalisée à jouer le rôle de preuve du théorème des quatre couleurs. Pour cela nous mettrons en évidence les possibles conflits entre les exigences liées au développement logiciel et celles liées aux mathématiques. Ces possibles conflits trouvent leur source dans la double nature de cette démonstration qui est à la fois une preuve et un programme. Nous présenterons alors une manière de concilier ces exigences en proposant un changement de perspective sur cet objet d’étude : nous défendrons le fait qu’une démonstration assistée par ordinateur peut également être envisagée comme un programme assisté par humain.",
+    "id": 6
+  },
+  {
+    "title": "Toward credible belief base revision",
+    "presenter": "Raïda Ktari (LIS, UMR 7020, LIRICA)",
+    "date": "- Le 08/01/2024 à 14h à St Charles, FRUMAM, 2ème étage",
+    "description": " We are concerned with belief revision, where several operators have been proposed. Some of them are based on the construction of maximally consistent sub-bases according to set inclusion or cardinality as maximality criterion. These criteria do not always guarantee the selection of the most relevant information and can consequently neglect potential formulas from the agent’s initial beliefs. This work tries to address this problem by investigating a sub-base selection criterion which respects the minimal change principle of belief revision in a sense which seems more credible, while trying to perform the change by capturing the most valuable or potential information from initial beliefs. In order to achieve this goal, we define two formula-based operators similar to RSRG and RSRW (Würbel et al. (2000), Creignou et al. (2017)), namely CSRG and CSRW. These new operators are based on the selection of the most credible consistent sub-bases. The computation of credibility is performed using suitable tools offered by evidence theory (belief functions theory). We study the logical properties of our operators in terms of satisfaction of postulates that should hold for any rational belief base revision operator. This work also investigates the productivity of the inference relation from the revision result as well as the complexity study of model checking problem for these operators.",
+    "id": 7
+  },
+  {
+    "title": "Variants of intuitionistic modal logic",
+    "presenter": "Han Gao (LIS, UMR 7020, LIRICA)",
+    "date": " Le 11/12/2023 à 14h à St Charles, FRUMAM, 3ème étage",
+    "description": " Intuitionistic modal logic as a branch of non-classical logic enjoys a long history tracing back to 1940s. In the development since then, two main traditions have emerged, one called intuitionistic modal logic and the other constructive modal logic. These two traditions are motivated by meta-logical properties and applications in computer science respectively.In this seminar, I will first give a brief introduction about the general development of the field of intuitionistic modal logic focusing on some prominent logics like IK, CCDL, CK, etc. Then I will introduce a recent work that reveals intuitionistic modal logics defined by natural variants of Kripke's semantics for which little or no research has been done. I will present the results we obtained so far concerning axiomatization, proof-systems and decidability of some of these logics. Finally, I will also discuss some open problems. ## Reference P. Balbiani, H. Gao, Ç. Gencer and N. Olivetti, A Natural Intuitionistic Modal Logic: Axiomatization and Bi-nestedCalculus, Computer Science Logic 2024 (CSL'24), to appear.",
+    "id": 8
+  },
+  {
+    "title": "Efficient enumeration of fixed points in complex Boolean networks using answer set programming",
+    "presenter": "Van-Giang Trinh (LIS, UMR 7020, LIRICA)",
+    "date": "Le 20/11/2023 à 14h à St Charles, FRUMAM, 3ème étage",
+    "description": " Résumé : Boolean Networks (BNs) are an efficient modeling formalism with applications in various research fields such as mathematics, computer science, and more recently systems biology. One crucial problem in the BN research is to enumerate all fixed points, which has been proven crucial in the analysis and control of biological systems. Indeed, in that field, BNs originated from the pioneering work of R. Thomas on gene regulation and from the start were characterized by their asymptotic behavior: complex attractors and fixed points. The former being notably more difficult to compute exactly, and specific to certain biological systems, the computation of stable states (fixed points) has been the standard way to analyze those BNs for years. However, with the increase in model size and complexity of Boolean update functions, the existing methods for this problem show their limitations. To our knowledge, all the state-of-the-art methods for the fixed point enumeration problem rely on Answer Set Programming (ASP). Motivated by these facts, in this work we propose two new efficient ASP-based methods to solve this problem. We evaluate them on both real-world and pseudo-random models, showing that they vastly outperform four state-of-the-art methods as well as can handle very large and complex models. ",
+    "id": 9
+  },
+  {
+    "title": "Enumération des modèles maximaux d'une formule de Horn",
+    "presenter": "Simon Vilmin (LIS, UMR 7020, LIRICA)",
+    "date": "Le 18/09/2023 à 15h à St Charles, FRUMAM, 2ème étage",
+    "description": " Résumé :L'énumération des modèles maximaux d'une formule de Horn est un problème difficile qui apparaît implicitement dans plusieurs domaines de l'informatique, allant du data mining à l'optimisation combinatoire. En outre, il généralise la dualisation des fonctions monotones booléennes (ou dualisation des hypergraphes) et se rapporte au problème de dualisation dans les treillis codés par des bases d’implications. Dans cet exposé, je présenterai le problème et quelques résultats connus à son sujet. En général, le problème ne peut être résolu en temps total polynomial à moins que P = NP, ce qui suggère l'étude de cas particuliers.Je m'intéresserai au cas où les clauses négatives de la formule ont taille deux. En tirant parti du lien entre formules de Horn et treillis, j'utiliserai le nombre de Carathéodory et la dualisation des hypergraphes pour donner des classes de formules où le problème peut être résolu en temps total (quasi-)polynomial. Je mentionnerai aussi des classes de treillis où le problème est déjà plus dur que la dualisation des hypergraphes, même si les clauses négatives sont de tailles deux.",
+    "id": 10
+  },
+  {
+    "title": "Une méthode en cours de formalisation : l'Analyse des Logiques Subjectives (A.L.S.)",
+    "presenter": "Vincent Risch (LIS, UMR 7020), Jean-Jacques Pinto (Aix-Marseille Université)",
+    "date": "10/07/2023",
+    "description": "ANALYSE… de discours, explorant l'argumentation subjective (persuader plutôt que convaincre) en recherchant le dénominateur commun à l'auteur d'un texte et à ses auditeurs/lecteurs : qui l'apprécie, qui le rejette, et dans quels termes. Exemple traité au départ: diagnostiquer la sympathie-complicité permet de comprendre le lien subliminal entre \"propagandeur\" et \"propagandé\" et l’admissibilité des fake news.",
+    "id": 11
+  },
+  {
+    "title": "A Rule-based Modal View of Causal Reasoning",
+    "presenter": "Emiliano Lorini (IRIT)",
+    "date": "03/07/2023",
+    "description": "We present a novel rule-based semantics for causal reasoning as well as a number of modal languages interpreted over it. They enable us to represent some fundamental concepts in the theory of causality including causal necessity and possibility, interventionist conditionals and Lewisian conditionals. We provide complexity results for the satisfiability checking and model checking problem for these modal languages. Moreover, we study the relationship between our rule-based semantics and the structural equation modeling (SEM) approach to causal reasoning, as well as between our rule-based semantics for causal conditionals and the standard semantics for belief base change.",
+    "id": 12
+  },
+  {
+    "title": "Enumération des modèles maximaux d'une formule de Horn",
+    "presenter": "Simon Vilmin (LORIA)",
+    "date": "05/06/2023",
+    "description": "L'énumération des modèles maximaux d'une formule de Horn est un problème difficile qui apparaît implicitement dans plusieurs domaines de l'informatique, allant du data mining à la logique modale. En outre, il généralise la dualisation des fonctions monotones booléennes (ou dualisation des hypergraphes) et se rapporte au problème de dualisation dans les treillis codés par des bases d’implications. Dans cet exposé, je présenterai le problème et quelques résultats connus à son sujet. En général, le problème ne peut être résolu en temps total polynomial à moins que P = NP, ce qui suggère l'étude de cas particuliers. Je m'intéresserai au cas où les clauses négatives de la formule ont taille deux, qui fait écho au codage d'un graphe médian au moyen d'un ordre partiel et d'un graphe de conflit. En tirant parti du lien entre formules de Horn et treillis, j'utiliserai le nombre de Carathéodory (que l'on retrouve notamment en optimisation combinatoire) et la dualisation des hypergraphes pour donner des classes de formules où le problème peut être résolu en temps total (quasi-)polynomial. Je mentionnerai aussi des classes de treillis où le problème est déjà plus dur que la dualisation des hypergraphes, même si les clauses négatives sont de tailles deux.",
+    "id": 13
+  },
+  {
+    "title": "Unification in non-classical logics",
+    "presenter": "Philippe Balbiani (IRIT)",
+    "date": "15/05/2023",
+    "description": "Originally motivated by automatic deduction tools, the unification problem in modal logics constitutes today the heart of an active research area in which much remains to be done. Within the context of description logics, the main motivation for investigating the unification problem was to propose new reasoning services in the maintenance of knowledge bases like the elimination of redundancies in the descriptions of concepts. In this talk, we will give a survey of the results on unification in these non-classical logics and we will present some of the open problems whose solution will have a great impact on the future of the area.",
+    "id": 14
+  },
+  {
+    "title": "Reasoning with Uncertain Inputs in an Imprecise Probabilistic Setting",
+    "presenter": "Karim Tabia (CRIL)",
+    "date": "05/05/2023, 14h30 at St Charles, FRUMAM, 3ème étage",
+    "description": "Probability intervals provide an intuitive, powerful and unifying setting for encoding and reasoning with imprecise beliefs. In this presentation, I will talk about some recent work related to reasoning with uncertain information in the framework of probability intervals. Il will first discuss the problem of updating uncertain information specified in the form of probability intervals with new uncertain inputs also expressed as probability intervals. Secondly, I will discuss the inverse problem of probabilistic belief update with uncertain inputs. Finally, I present an application of reasoning with uncertain information to better calibrate the predictive probabilities of machine learning models.",
+    "id": 15
+  },
+  {
+    "title": "Robust control of Boolean networks in systems biology",
+    "presenter": "Samuel Pastva (Institute of Science and Technology, Vienna)",
+    "date": "10/04/2023, 14h remotely ",
+    "description": "Boolean networks represent a simple yet scalable model of gene regulation in living organisms. Their ability to mimic biological systems makes them useful when attempting to reprogram the function of biological circuits (e.g., altering cell phenotypes). Depending on the specific biological conditions, this problem comes in many flavours, but is collectively referred to as Boolean network control. Today, even the most detailed Boolean models often contain elements that are either added ad hoc or fine-tuned (arguably over-fitted) to a particular dataset. An alternative is to view these elements as unknown or undetermined, which is more true to the available biological knowledge. However, this introduces uncertainty in the network dynamics which complicates computational analysis and interpretation of results. This talk provides an overview of the various sub-problems of Boolean network control and methods for addressing these problems computationally. It then expands this view to partially specificed Boolean networks and introduces a notion of robust control which allows to safely account for uncertainty in network dynamics. The viability of robust control is explored using a collection of symbolic, BDD-based algorithms.",
+    "id": 16
+  },
+  {
+    "title": "Logique, compositionnalité, et sémantique pour la modélisation des langues naturelles",
+    "presenter": "Maria Boritchev (Orange Innovation, Lannion)",
+    "date": "03/04/2023, 14h remotely",
+    "description": "En linguistique computationnelle, la question de l'accès à la sémantique des textes écrits dans des langues naturelles (dans cet exposé, principalement anglais et un peu français) a été principalement abordée de deux points de vue : un point de vue statistique et un point de vue formel, au sens de la logique mathématique. La première approche tire parti de grandes quantités de données annotées disponibles pour l'anglais et utilise des techniques d'apprentissage automatique pour produire des analyseurs sémantiques qui fonctionnent, en moyenne, assez bien, tout en produisant des résultats parfois absurdes pour des phénomènes linguistiques et logiques tels que la négation et la quantification. La seconde approche est ancrée dans la logique mathématique et dans la compositionnalité, ce qui la rend robuste et bien adaptée à la modélisation des phénomènes linguistiques et logiques dans le langage, mais rend très difficile le passage à l'échelle de cette approche. Plutôt que choisir l'une des deux approches et de s'y tenir, nous aimerions étudier la possibilité de les combiner pour obtenir un analyseur sémantique logiquement robuste et évolutif, aussi adaptable que possible aux spécificités des différentes langues. Le premier pas que nous faisons dans cette direction est l'étude de la capacité de deux architectures de réseaux neuronaux (perceptron multi-couches, MLP, et réseau de neurones récurrent, RNN) à produire des raisonnements compositionnels.",
+    "id": 17
+  },
+  {
+    "title": "Explainable AI: A declarative approach for multi-label classification",
+    "presenter": "Karim Tabia (Université d'Artois, CRIL)",
+    "date": "20/03/2023, 14h remotely",
+    "description": "With the rise of artificial intelligence systems in many areas (autonomous car, smart cities, predictive health, etc.), it becomes essential and critical to understand the decisions and behaviors of an intelligent system. In this presentation, I will first give the big picture of explainable AI and explainability in machine learning. Secondly, the focus will be on declarative approaches that we have proposed to provide both symbolic and numerical explanations for multi-class and multi-label classification problems. The presentation will point out, finally, some problems and challenges facing the AI community in terms of explainable AI.",
+    "id": 18
+  },
+  {
+    "title": "Labelled calculi for non-classical logics",
+    "presenter": "Marianna Girlando (Université d'Amsterdam)",
+    "date": " Le 06/02/2023 à 13h15 à St Charles, FRUMAM, 3ème étage",
+    "description": " Labelled sequents enrich the syntax of Gentzen-style calculi by introducing in the language pieces of semantic information, the 'labels', which represent elements of possible-world models for the logic. In this talk we introduce the formalism of labelled sequent calculi, and showcase how modular and analytic labelled systems can be defined for a number of modal and non-classical logics - namely, those whose frame conditions can be expressed by means of geometric axioms, a specific class of first-order formulas. As a case study, we shall present labelled calculi for conditional logics. We will conclude by discussing how labelled calculi could be defined for modal logics with recursive modalities, thus combining the labelled approach with tools from cyclic proof theory.",
+    "id": 19
+  },
+  {
+    "title": "Coherence via strategic rewriting in higher Kleene algebras",
+    "presenter": "Cameron Calk (Post-Doc LIS)",
+    "date": "Le 05/12/2022 à 14h à Luminy (salle 4.05, Bât. TPR2 au LIS) et en visio",
+    "description": "Normalisation strategies provide a categorical interpretation of contracting homotopies via confluent and terminating rewriting. In particular, this approach relates standardisation to coherence results in the context of higher dimensional rewriting systems. On the other hand, modal Kleene algebras (MKAs) have provided a description of properties of abstract rewriting systems, and classic (one-dimensional) consistency results have been formalised in this setting. In this talk, I will recall the notion of higher Kleene algebra, introduced as an extension of MKAs, and which provide a formal setting for reasoning about (higher dimensional) coherence proofs for abstract rewriting systems. In this setting, I will describe how the formalisation of the notion of normalisation strategy leads to a coherence theorem via convergent rewriting. At the end, I will briefly discuss how natural examples of such structures arise from a Jónsson-Tarski duality between n-categories and globular n-quantales. Lien zoom: https://univ-amu-fr.zoom.us/j/82328232953?pwd=d3d2TkVkY2tkOXdhQzRnSnZaeURGQT09",
+    "id": 20
+  },
+  {
+    "title": "Minimal trap spaces of Boolean models are maximal siphons of their Petri net encoding",
+    "presenter": "Van-Giang Trinh (LIRICA)",
+    "date": "Le 17/10/2022 à 14h à St Charles, FRUMAM, 2ème étage",
+    "description": "Boolean modelling of gene regulation but also of other biological systems has had great successes over the last ~20 years. Besides simulation, the analysis of such models is mostly based on attractor computation, since those correspond roughly to observable biological phenotypes. The recent use of trap spaces made a real breakthrough in that field allowing to consider medium-sized models that used to be out of reach. However, with the continuing increase in model-size, the state-of-the-art computation of minimal trap spaces based on prime-implicants shows its limits as there can be a huge number of implicants. In this research, we present an alternative method to compute minimal trap spaces, and hence complex attractors, of a Boolean model. It replaces the need for prime-implicants with a completely different technique, namely the enumeration of maximal siphons in the Petri net encoding of the original model. After some technical preliminaries, we expose the concrete need for such a method and detail its implementation using Answer Set Programming. We then demonstrate its efficiency and compare it to implicant-based methods on several large Boolean models from the literature.",
+    "id": 21
+  },
+  {
+    "title": "A Journey in intuitionistic Modal Logic: normal and non-normal modalities",
+    "presenter": "Nicola Olivetti (LIRICA)",
+    "date": "Le 03/10/2022 à 14h à St Charles, FRUMAM, 2ème étage",
+    "description": "Modal extensions of intuitionistic logic have a long history going back to the work by Fitch in the 40’ [6]. Two traditions are now consolidated, called respectively Intuitionistic Modal Logic and Constructive Modal logic. Each of the two has its own motivation and is more natural than the other from some standpoint. In the former tradition originated by Fischer- Servi [5] and systematized by Simpson [9], the basic system is IK, whereas in the tradition of constructive modal logics the two basic systems are Wijesekera’ systems WK [10] and the system CK by Bellin et als. [1]. Constructive modal logic are non-normal modal logics. In the classical setting, non-normal modal logics have been studied for a long time for several purposes (see [2], [8]). The observation that constructive modal logics are non-normal and the interest in non-normal modalities in itself leads to the question: which are the intuitionistic analog of classical non-normal modal logic? It turns out that the framework of intuitionistic non-normal modal logic is richer than the classical one. In particular different interactions between the two modalities 2 and 3 give rise to distinct systems; some of them do not have a counterpart in the classical case. The resulting picture is a lattice of 24 non-normal modal logics with an intuitionistic base each of them determined by a cut-free sequent calculus. Similarly to classical non-normal modal logics, all systems of non-normal intuitionistic modal logic are characterized by a simple neighbourhood semantics. Moreover the neighbourhood semantics helps to understand also Constructive modal logics CK and WK, as it covers also these systems. The interest of the neighbourhood semantics for constructive modal logic can also be justified from a proof-theoretical perspective, as it witnessed by some recently introduced unprovability calculi for these logics. In these calculi, each derivation precisely corresponds to one neighbour- hood countermodel, whereas there is no direct correspondence with relational models. This fact confirms the usefulness and the naturalness of neighbourhood semantics for analysing in- tuitionistic modal logics. [Joint work with Tiziano Dalmonte and Charles Grellois.]",
+    "id": 22
+  },
+  {
+    "title": "Understanding the lambda-calculus via (non-)linearity and rewriting",
+    "presenter": "Giulio Guerrierri (LIRICA)",
+    "date": " Le 19/09/2022 à 14h à St Charles, FRUMAM, 2ème étage",
+    "description": "The lambda-calculus is the model of computation underlying functional programming languages and proof assistants. Actually, there are many lambda-calculi, depending on the evaluation mechanism (e.g., call-by-name, call-by-value, call-by-need) and computational features that the calculus aims to model (e.g., plain functional, non-deterministic, probabilistic, infinitary).\nThe existence of different paradigms is troubling because one apparently needs to study the theory and semantics of each one separately.\nWe propose a unifying and uniform meta-theory of lambda-calculi, where the study is rooted on a unique core language, the bang calculus, a variant of the lambda-calculus inspired by Girard's linear logic and Levy's Call-by-Push-Value: a bang operator marks which resources can be duplicated or discarded.\nThe bang calculus subsumes both call-by-name and call-by-value. A property studied in the bang calculus is automatically translated in the corresponding property for the call-by-name lambda-calculus and the call-by-value lambda-calculus, thanks to two different embeddings of the lambda-calculus in the bang calculus. These embeddings are grounded on proof theory, via Curry-Howard: they are an adaptation of Girard's two translations of intuitionistic logic into linear logic.\nAdvanced computational features are usually obtained by adding new operators to a core language. Instead of studying the operational properties of the extended language from scratch, we propose a simple method to study them modularly: if an operational property holds in the core language and in the new operators separately, then a simple test of good interaction between core language and new operators guarantees that the property lifts to the whole extended language. This approach is first developed in abstract rewriting systems.",
+    "id": 23
+  },
+  {
+    "title": "Minimal trap spaces of Boolean models are maximal siphons of their Petri net encoding",
+    "presenter": "Trinh Van Giang (LIRICA)",
+    "date": "Le 13/07/2022 à 10h à St Charles, FRUMAM, 2ème étage",
+    "description": "Boolean modelling of gene regulation but also of other biological systems has had great successes over the last ~20 years. Besides simulation, the analysis of such models is mostly based on attractor computation, since those correspond roughly to observable biological phenotypes. The recent use of trap spaces made a real breakthrough in that field allowing to consider medium-sized models that used to be out of reach. However, with the continuing increase in model-size, the state-of-the-art computation of minimal trap spaces based on prime-implicants shows its limits as there can be a huge number of implicants.\nIn this research, we present an alternative method to compute minimal trap spaces, and hence complex attractors, of a Boolean model. It replaces the need for prime-implicants with a completely different technique, namely the enumeration of maximal siphons in the Petri net encoding of the original model. After some technical preliminaries, we expose the concrete need for such a method and detail its implementation using Answer Set Programming. We then demonstrate its efficiency and compare it to implicant-based methods on several large Boolean models from the literature.",
+    "id": 24
+  },
+  {
+    "title": "Cyclic proofs, hypersequents and Transitive Closure Logic",
+    "presenter": "Marianna Girlando (University of Birmingham, UK)",
+    "date": "Le 13/06/2022 à 14h en visio et à St Charles, FRUMAM, 2ème étage",
+    "description": "Transitive Closure Logic (TCL) enriches the language of first order logic with a recursive operator, expressing the transitive closure of a binary relation. Cyclic sequent calculi proofs for this logic have been introduced in the literature. In this talk, I will present a new cyclic proof system for TCL, which employs hypersequents. The main motivation behind this work is that, differently from sequent TCL proofs, hypersequent proofs for TCL successfully simulate cyclic proofs in the transitive fragment of Propositional Dynamic Logic (PDL+), without using the non-analytic rule of cut.\nAfter introducing the cyclic hypersequent calculus for TCL, I will present two main results. First, I will sketch a proof of soundness for the calculus, which requires a more involved argument than the one used in traditional cyclic proofs. Second, I will show how PDL+ cyclic proofs can be translated into TCL hypersequent proofs. This result allows to lift the completeness result for cyclic PDL+ to the hypersequent calculus.\nThis talk is based on joint work with Anupam Das.",
+    "id": 25
+  },
+  {
+    "title": "Sémantique dénotationelle pour les langages de programmation probabilistes",
+    "presenter": "Raphaëlle Crubillé (LIRICA)",
+    "date": "Le 30/05/2022 à 14h en visio",
+    "description": "Sémantique dénotationelle pour les langages de programmation probabilistes",
+    "id": 26
+  },
+  {
+    "title": "Autonomous Decision-Making with Incomplete Information and Safety Rules based on Non-Monotonic Reasoning",
+    "presenter": " José-Luis Vilchis-Medina (Ecole navale, Brest)",
+    "date": "Le 09/05/2022 à 14h en visio",
+    "description": "Autonomous Decision-Making with Incomplete Information and Safety Rules based on Non-Monotonic Reasoning",
+    "id": 27
+  },
+  {
+    "title": "De la conception d'un système ASP au traitement des données biologiques",
+    "presenter": "Tarek Khaled (LIRICA)",
+    "date": "Le 25/04/2022 à 14h en visio et à St Charles, FRUMAM, 2ème étage",
+    "description": "La programmation par ensemble réponse (Answer Set Programming, ASP) est un paradigme de programmation déclaratif basé sur la sémantique des modèles stables. L'idée derrière ASP est de coder un problème donné comme un ensemble de règles logiques, les modèles stables obtenus à partir du programme logique constituent les solutions du problème initial. La grande expressivité de l'ASP, combinée au nombre croissant d'applications, ont fait de l’ASP un sujet de recherche majeur.\nDans cet exposé, nous présentons la manière dont nous avons exploité une nouvelle sémantique de programme logique pour la conception d'un nouveau système ASP. Cette sémantique nous a donné la possibilité de calculer tous les modèles stables d'un programme logique ainsi que les modèles extra-stables. Ces modèles extra-stables correspondent aux extra-extensions de la nouvelle sémantique qui ne sont pas capturées par la sémantique des modèles stables. La méthode que nous proposons effectue un processus énumératif booléen adapté à l’ ASP et à la nouvelle sémantique. Elle a l’avantage de travailler sur une représentation sous forme de clauses de Horn ayant la même taille que le programme logique d’entrée et travaille à espace constant. En plus, l’énumération est effectuée sur un ensemble restreint de littéraux du programme logique représentant son \"strong backdoor\".Dans la suite de cet exposé, nous aborderons l'utilisation de programmes logiques et d'ASP pour exprimer et traiter des réseaux de régulation génique considérés comme des réseaux booléens, et nous présenterons des méthodes permettant de détecter tous les attracteurs dans ces réseaux. Les attracteurs sont essentiels dans l'analyse de la dynamique d'un réseau booléen. Ils expliquent pourquoi une cellule particulière peut acquérir des phénotypes spécifiques qui peuvent être transmis sur plusieurs générations. Nous présentons d'abord comment représenter et traiter les réseaux booléens généraux pour les modes de mise à jour synchrone et asynchrone. Ensuite, nous faisons une présentation du cas particulier des réseaux circulaires. Ce dernier cas spécifique joue un rôle essentiel dans les systèmes vivants. Nous avons montré plusieurs propriétés théoriques; en particulier, les attracteurs simples des réseaux de gènes sont représentés par les modèles stables des programmes logiques correspondants et les attracteurs cycliques par leurs modèles extra-stables.",
+    "id": 28
+  },
+  {
+    "title": "A categorical approach to resource approximation",
+    "presenter": "Federico Olimpieri (Leeds, UK)",
+    "date": " Le 04/04/2022 à 14h en visio et à St Charles, FRUMAM, 2ème étage",
+    "description": "In recent years, the semantics of linear logic has lead to the development of powerful tools for the analysis of quantitative and qualitative aspects of computation. The notion of resource approximation arose in this context and it consists in the study of the computational behavior of programs via an appropriate kind of approximations. An important example of this is given by linear approximations of lambda-terms. These approximations are resource-sensitive programs, that use exactly once their input during computation. I will present some relevant results in this field from my general perspective rooted in the categorical semantics of programming languages.",
+    "id": 29
+  },
+  {
+    "title": "Complétion de modèles partiellement étiquetés pour la logique LTL",
+    "presenter": "Sophie Paillocher (IBISC, Evry)",
+    "date": "Le 21/03/2022 à 14h en visio",
+    "description": "Un problème important dans le processus de conception et réalisation d’un système informatique critique est de tester automatiquement si un modèle abstrait donné du système vérifie ou non une spécification donnée, exprimée dans un langage logique. Ce problème, connu sous le nom de « Model Checking » est usuellement étudié dans le cadre où le modèle abstrait est entièrement construit.\nToutefois des scénarios existent où l’information dont l’on dispose à propos du système est partielle. En effet, le système peut être seulement partiellement construit, ou bien la possibilité d’observation du système peut être limitée.\nDans ce contexte deux problèmes émergent :\n• Peut-on compléter le modèle partiel de façon à obtenir un modèle entièrement construit respectant une spécification donnée ?\n• Peut-on s’assurer que le modèle respectera une spécification donnée, peut importe l’information manquante?\nIci nous considérerons les modèles comme étant des systèmes de transitions dont les états sont étiquetés par des informations sur les propositions atomiques. Le cadre logique sera quant-à lui celui de la logique LTL. De plus nous restreindrons l’information manquante aux seules étiquettes. La structure du modèle partiel (états et transitions) donné en entrée restera donc inchangée lors de la complétion.\nNous commencerons par analyser les problèmes de complétion, et en particulier par énoncer des résultats de complexité. Puis nous présenterons une méthode générale, inspirée de la méthode des tableaux, afin de les résoudre.",
+    "id": 30
+  },
+  {
+    "title": " Recent Epistemic Extensions of Equilibrium Logic",
+    "presenter": "Ezgi Iraz SU",
+    "date": "Le 07/03/2022 à 14h en visio et à St Charles, FRUMAM, 2ème étage",
+    "description": "Answer set programming (ASP) is a well-established paradigm for declarative logic programming and nonmonotonic reasoning. Thanks to its efficient solvers, ASP performs as a successful logic-based problem-solving technique and is especially useful for difficult combinatorial search problems with optimisation.\nHere-and-there logic (HT) is a nonclassical (three-valued) monotonic logic which is intermediate between classical logic and intuitionistic logic, and it is closely aligned with ASP:\n(i) First, Pearce’s equilibrium logic provides a purely logical framework for ASP. Its semantics, via equilibrium models, is based on a truth-minimisation criterion over HT models. The way of choosing such minimal models among HT models of a formula turns equilibrium logic into a nonmonotonic reasoning formalism.\n(ii) Second, HT characterises an important notion of ASP. To spell it out, strong equivalence of ASP programs can be captured by logical equivalence of corresponding HT theories (i.e., sets of HT formulas).\nIn this talk, we first make a short introduction to the above-mentioned formalisms with a focus on equilibrium logic. Then, we discuss the recent epistemic extensions of equilibrium logic. Among these, the main approach is to integrate (reflexive) autoepistemic logic and equilibrium logic in order to insert the introspective reasoning of the former to the latter. Autoepistemic logic is an important form of nonmonotonic reasoning, allowing a rational agent to reason about her own knowledge. It extends classical propositional logic by an epistemic modal operator. Autoepistemic logic and its reflexive extension are respectively identical to the nonmonotonic variants of the modal logics KD45 and SW5. Their minimal models reflect minimisation of knowledge. Thus, equilibrium models of (reflexive) autoepistemic equilibrium logics respect both knowledge and truth minimality. Today, they are considered the most successful approach among the existing semantics for epistemic ASP; yet the definition of a rigorous and understandable semantics for epistemic operators in the language of ASP is still subject of ongoing research.",
+    "id": 31
+  },
+  {
+    "title": "Simplicial Models for Multi-Agent Epistemic Logic",
+    "presenter": "Jérémy Ledent",
+    "date": " Le 11/02/2022 à 10h en visio (séminaire commun DALGO-LIRICA)",
+    "description": "Epistemic Logic is the modal logic of knowledge. It allows to reason about a finite set of agents who can know facts about the world, and about what the other agents know. The traditional Kripke-style semantics for epistemic logic is based on graphs whose vertices represent the possible worlds, and whose edges indicate the agents that cannot distinguish between two worlds. In this talk, I will present an alternative semantics for epistemic logic, based on combinatorial topology. The idea is to replace the Kripke graph by a simplicial complex, allowing for higher-dimensional connectivity between the possible worlds. In fact, every Kripke model can be turned into an equivalent simplicial model, thus uncovering its underlying geometric structure. Our notion of simplicial model is inspired from the \"protocol complex\" approach to distributed computing. I will show how our framework can be used to analyse distributed computing, where the agents are the processes, and the possible worlds are all the possible executions of the system. In order to prove impossibility results, one must find an epistemic logic formula representing the knowledge that the processes should acquire in order to solve a task; and argue that such knowledge cannot be achieved. This is joint work with Éric Goubault and Sergio Rajsbaum",
+    "id": 32
+  },
+  {
+    "title": "Games with no Winner: an Introduction to Game Semantics",
+    "presenter": "Pierre Clairambault (LIRICA)",
+    "date": "Le 10/01/2022 à 14h en visio et à St Charles, FRUMAM, 3ème étage",
+    "description": "How to define rigorously the behaviour of programs under execution? Program semantics is a necessary first step in order to prove that a program or program transformation is correct, and is of course a preliminary to any theoretical question on programming languages. Game semantics is one of many approaches to program semantics. It represents a program by recording the exchange of observable computational events with its execution environment, phrased as a play in a two-player game that the program plays with its context. In game semantics there is no winner: it is about the journey, not the destination!\nMost of my talk will be an introduction to game semantics. I will first focus on some old (but nice) results, namely the so-called « semantic cube » following which game semantics exactly captures the observable behaviour of programs with various computational effects (notably, mutable state and non-local control). I will show how this allows one to prove results about computational effects and their interferences.\nTime permitting, I will then talk about some of my own recent work on a game semantics for concurrent programs. The semantics builds on so-called « true concurrency » models such as event structures, and provides a causal description of the behaviour of concurrent programs with rich computational features.",
+    "id": 33
+  },
+  {
+    "title": "Clonoids of Boolean functions",
+    "presenter": "Erkko Lehtonen (Universidade Nova de Lisboa)",
+    "date": "Le 22/11/2021 à 14h à St Charles, FRUMAM, 3ème étage",
+    "description": " A clonoid is a class of functions of several arguments that is stable under right and left compositions with fixed clones. In this talk, we discuss first steps towards Post-like complete descriptions of clonoids of Boolean functions. We provide a brief introduction to the topic and present some motivations for studying clonoids.",
+    "id": 34
+  },
+  {
+    "title": "An FVS-based Approach to Attractor Detection in Asynchronous Boolean Networks",
+    "presenter": "Van-Giang TRINH (Tokyo, Japan)",
+    "date": " Le 28/06/2021 à 11h en visio",
+    "description": "Boolean Networks (BNs) play a crucial role in modeling and analyzing biological systems. One of the central issues in the analysis of BNs is attractor detection, i.e., identification of all possible attractors. This problem becomes more challenging for large Asynchronous Boolean networks (ABNs) because of the asynchronous and non-deterministic updating scheme. In this research, we formally state and prove several relations between Feedback Vertex Sets (FVSs) and dynamics of BNs. From these relations, we propose an FVS-based method for detecting attractors in ABNs. Our approach relies on the principle of removing arcs in the state transition graph to get a candidate set and the reachability property to filter the candidate set. We formally prove the correctness of the proposed method, and then show its efficiency by conducting experiments on real biological networks and randomly generated N-K networks. The obtained results are very promising, since our method can handle large networks whose sizes are up to 101 without using any network reduction technique. This advanced computation capability can enable biologists to conduct more accurate analysis on large networks, then discover more biological insights.",
+    "id": 35
+  },
+  {
+    "title": "Recent Epistemic Extensions of Answer Set Programming",
+    "presenter": " Ezgi Iraz SU",
+    "date": "Le 31/05/2021 à 14h en visio",
+    "description": "Answer set programming (ASP) is a well-established paradigm for declarative programming and nonmonotonic reasoning. Accordingly, it serves as a successful method of problem-solving in knowledge representation and reasoning. However, today it is widely accepted by the logic programming community that ASP requires a more powerful introspective reasoning with the use of epistemic modalities. Although there has been a long-lasting debate among researchers about how to correctly extend ASP with epistemic modal operators, there is still no agreement on a fully satisfactory semantics that is able to offer intuitive results for epistemic logic programs (ELPs). To carry this discussion on a more formal level, Cabalar et al. have recently proposed some candidate structural criteria that successful semantics approaches for ELPs are supposed to satisfy. These are mainly the epistemic extensions of ASP’s well-known principles of constraint monotonicity, splitting, and foundedness.\nIn this talk, we first give a brief survey of ASP’s recent epistemic extensions, and if time permits, then we also shortly discuss these formal properties.",
+    "id": 36
+  },
+  {
+    "title": "Ortholattices résiduels comme nouvelle approche de la logique quantique",
+    "presenter": "Wesley Fussner",
+    "date": "Le 26/04/2021 à 14h en visio",
+    "description": "Cet exposé passe en revue nos récentes tentatives d'étudier le raisonnement quantique à l'aide des outils des logiques sous-structurelles. Nous introduisons les ortholattices résiduels comme des modèles algébriques généralisant les modèles habituels de la logique quantique, et illustrons qu'ils donnent une version `intuitioniste' de la logique quantique dans laquelle la logique quantique classique peut être interprétée par une traduction à double négation.",
+    "id": 37
+  }
+]
